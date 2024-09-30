@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+
+  <!-- header -->
+  <header class="header">
+    <div class="wrapper header-wrapper">
+      <h1 class="title">Image gallery</h1>
+      <div class="search-field">
+        <button class="btn-search"></button>
+        <input id="search" type="text" class="search-text-input" autocomplete="off" placeholder="Поиск">
+        <button class="btn-clear">
+          <svg focusable="false" width="24" height="24" viewBox="0 0 24 24" class="clear"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" fill="rgb(95, 99, 104)"></path></svg>
+        </button>
+      </div>
+      <p>With <a href="https://unsplash.com/developers" class="unsplash" target="_blank">Unsplash API</a></p>
+    </div>
+  </header>
+
+  <!-- main -->
+  <main class="main">
+    <div class="wrapper imgWrapper">
+    </div>
+  </main>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="wrapper footer-wrapper">
+      <a href="https://github.com/webdevby" class="footer-github" target="_blank">webdevby</a>
+      <span class="footer-year">2024</span>
+      <a href="https://rs.school/courses/javascript-preschool-ru" class="rss" target="_blank"></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
