@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #DDDDDD;
+}
+
+img {
+  width: 380px;
+  height: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+.body {
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(to right, #DECBA4, #3E5151);
+}
+
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.header-wrapper {
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 80px;
+  padding: 0 30px;
+}
+
+.title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+  width: 290px;
+  height: 35px;
+  background-color: #ffffff;
+  border: 1px solid #DDDDDD;
+}
+
+.btn-search {
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: unset;
+}
+
+.search-text-input {
+  border: none;
+  outline: none;
+  flex-basis: 205px;
+  font-size: 18px;
+}
+
+.btn-clear {
+  border: none;
+  background-color: unset;
+  opacity: 0;
+  cursor: unset;
+}
+
+.btn-clear-visible {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.unsplash:hover {
+  color: rgb(19, 60, 114);
+}
+
+.gallery-img {
+  width: 380px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 5px;
+}
+
+.imgWrapper {
+  justify-content: space-evenly;
+  border-radius: 10px;
+  padding: 15px 0;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  align-content: start;
+  border: 4px solid rgb(19, 60, 114);
+}
+
+.footer {
+  justify-content: center;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  align-items: center;
+}
+
+.footer-wrapper {
+  height: 70px;
+  max-width: 900px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-github {
+  width: 35px;
+  height: 35px;
+  color: #ffffff;
+}
+
+.footer-github:hover {
+  color: rgb(19, 60, 114);
+}
+
+.rss {
+  width: 35px;
+  height: 35px;
+  background-image: url("./rss-logo.svg");
+}
